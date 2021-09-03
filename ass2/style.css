@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  height: 0;
+  box-sizing: border-box;
+}
+.main {
+  position: relative;
+  min-height: 65vh;
+  background: url("./cloud.jfif");
+  background-position: center;
+  background-size: cover;
+  letter-spacing: 2px;
+}
+.main img{
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  animation: cloud 10s ease-in-out;
+}
+.time {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-size: 35px;
+  display: flex;
+}
+.time h1 {
+  font-weight: 100;
+}
+.time h2 {
+  margin-top: 15px;
+  margin-left: 10px;
+  font-weight: 100;
+}
+.day p {
+  margin-top: 15px;
+  font-size: 20px;
+}
+.day {
+  position: absolute;
+  top: 23%;
+  left: 5%;
+}
+.place {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 15%;
+  right: 5%;
+}
+.place h1 {
+  font-size: 50px;
+  font-weight: 100;
+}
+.place p {
+  font-size: 20px;
+  margin-top: 65px;
+  margin-left: 90px;
+}
+.info {
+  width: 90%;
+  margin: auto;
+}
+.info {
+  margin-top: 50px;
+  display: flex;
+  min-height: 40vh;
+}
+.info p {
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.sun {
+  width: 125px;
+  height: 125px;
+  border: 1px solid yellow;
+  border-radius: 50%;
+  background-image: linear-gradient(90deg, yellow, rgb(255, 187, 0));
+}
+.temp {
+  margin-left: 80px;
+}
+.ext {
+  display: flex;
+}
+.int {
+  margin-top: 100px;
+  display: flex;
+}
+.ext h1,
+.int h1 {
+
+  font-size: 50px;
+  font-weight: 100;
+}
+.ext span,
+.int span {
+  width: 40px;
+  margin-top: 25px;
+  margin-right: 20px;
+  border-top:1px solid;
+  border-color: rgb(105, 92, 92);
+}
+.ext p,
+.int p {
+    margin-top: 10px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.degree{
+  margin-right: 10px;
+}
+.display {
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
+.display span {
+  width: 40px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  border-top: 0.5px solid;
+  border-color: rgb(105, 92, 92);
+}
+.display h1 {
+  margin-left: 35px;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.display p{
+  margin-top: 0px;
+    font-size: 17px;
+    font-weight: 100;
+    white-space: nowrap;
+}
+.display img{
+  width: 50px;
+  height: 50px;
+}
+.hum {
+  margin-left: 110px;
+  display: flex;
+  flex-direction: column;
+}
+.ppm {
+  margin-left: 125px;
+  display: flex;
+  flex-direction: column;
+}
+.ppb {
+  margin-left: 125px;
+  display: flex;
+  flex-direction: column;
+}
+.hum span{
+  margin-left: 25px;
+}
+.ppb span{
+  margin-left: 45px;
+}
+.ppm span{
+  margin-left: 50px;
+}
+.hum h1 {
+  margin-left: 20px;
+}
+.hum img{
+  margin-top: -15px;
+  margin-left: 20px;
+}
+.ppm img{
+  margin-top: -15px;
+  margin-left: 40px;
+}
+.ppb img{
+  margin-top: -15px;
+  margin-left: 40px;
+}
+@keyframes cloud{
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+  
+}
